@@ -70,3 +70,32 @@ button:hover, .btn:hover {
     background-color: #FF5722; /* alert orange */
     color: white;
 }
+section {
+  padding: 40px 20px;
+  margin-bottom: 30px;
+  border-radius: 8px;
+}
+.about {
+  background-color: #E6EEF5; /* soft blue-gray */
+}
+.skills {
+  background-color: #FDF6E3; /* warm cream */
+}
+.projects {
+  background-color: #F9F9F9; /* neutral */
+}
+h1, h2 {
+  color: #004080; /* primary navy */
+  border-bottom: 3px solid #FFCC00; /* gold accent underline */
+  display: inline-block;
+  padding-bottom: 5px;
+}
+.skills li {
+  display: inline-block;
+  background-color: #007ACC; /* secondary azure */
+  color: white;
+  padding: 8px 12px;
+  margin: 5px;
+  border-radius: 20px;
+  font-weight: bold;
+}
