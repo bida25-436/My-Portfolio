@@ -3,17 +3,17 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: hsl(0, 0%, 98%);
+    background-color: #F9F9F9
     color: #333333;
 }
 /* Navigation */
 nav {
-    background-color: #333;
+    background-color: #004080
     padding: 15px;
     text-align: center;
 }
 nav a {
-    color: white;
+    color: #FFCC00
     text-decoration: none;
     margin: 0 15px;
 }
@@ -22,7 +22,7 @@ nav a:hover {
 }
 /* Headers */
 header {
-    background-color: #4CAF50;
+    background-color: #007ACC
     color: white;
     padding: 30px;
     text-align: center;
@@ -35,7 +35,7 @@ main {
 }
 /* Footer */
 footer {
-    background-color: #333;
+    background-color: #004080
     color: white;
     text-align: center;
     padding: 15px;
@@ -45,4 +45,28 @@ footer {
 img {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+/* Accent Buttons */
+button, .btn {
+    background-color: #FFCC00; /* accent */
+    color: #004080; /* primary text */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+button:hover, .btn:hover {
+    background-color: #e6b800; /* darker gold */
+    color: white;
+}
+/* Success and Alert Buttons */
+.btn-success {
+    background-color: #4CAF50; /* success green */
+    color: white;
+}
+.btn-alert {
+    background-color: #FF5722; /* alert orange */
+    color: white;
 }
