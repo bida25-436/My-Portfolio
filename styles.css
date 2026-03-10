@@ -22,8 +22,8 @@ nav a:hover {
 }
 /* Headers */
 header {
-    background-color: #FFCOCB;
-    color: #87CEEB; 
+    background-color: #FFC0CB;
+    color: rgba(255, 255, 255, 0.568)
     padding: 30px;
     text-align: center;
 }
