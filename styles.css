@@ -13,7 +13,7 @@ nav {
     text-align: center;
 }
 nav a {
-    color: white;
+    color: pink;
     text-decoration: none;
     margin: 0 15px;
 }
@@ -22,8 +22,8 @@ nav a:hover {
 }
 /* Headers */
 header {
-    background-color: #FFC0CB
-    color: white;
+    background-color: pink
+    color: #87CEED; 
     padding: 30px;
     text-align: center;
 }
