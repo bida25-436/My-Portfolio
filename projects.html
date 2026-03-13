@@ -18,8 +18,15 @@
 </nav>
             </header>
             <main>
+<div id="filter-buttons">
+    <button class="filter-btn active" data-filter="all">All</button>
+    <button class="filter-btn" data-filter="html">HTML/CSS</button>
+    <button class="filter-btn" data-filter="bootstrap">Bootstrap</button>
+    <button class="filter-btn" data-filter="javascript">JavaScript</button>
+</div>
                 <!--Project 1-->
                 <article>
+                    <article class="project-card" data-category="html"></article>
                     <h2>Project 1: Personal Portfolio</h2>
                     <img src="images/my portfolio.png" alt="Portfolio website screenshot" width="300">
                     <p>This is the portfolio website you are currently viewing. It was built using HTML, GitHub pages and CSS style. The design is simple allowing viewers to easily navigate through different files.</p>
@@ -33,6 +40,7 @@
                 </article>
                 <!--Project 2-->
                 <article>
+                    <article class="project-card" data-category="html"></article>
                     <h2>Project 2: Power BI Dashboard</h2> 
                     <img src="images/power BI.png" alt="Power BI dashboard design screenshot" width="300">
                     <p>I applied different steps to create a dashboard.</p>
@@ -46,6 +54,7 @@
                 </article>
                 <!--Project 3-->
                 <article>
+                    <article class="project-card" data-category="html"></article>
                     <h2>Project 3: Microsoft Access</h2>
                     <img src="images/microsoft access.png" alt="Database design screenshot" width="300">
                     <p>This project showcases my database design skills. I created a database for a company called Top Stretch Retailers.</p>
@@ -59,6 +68,7 @@
                 </article>
                 <!--Project 4-->
                 <article>
+                    <article class="project-card" data-category="html"></article>
                     <h2>Project 4: Microsoft Excel</h2>
                     <img src="images/microsoft excel.png" alt="Excel dashboard screenshot" width="300">
                     <p>I used Microsoft Excel to showcase my data analysing skills. I grouped weekly rainfall data using a bar graph.</p>
@@ -73,5 +83,7 @@
             <footer>
                 <p>&copy; 2026 Tumelo Mesotlo</p>
             </footer>
+            <button id="back-to-top">↑</button>
+            <script src="script.js"></script>
         </body>
 </html>
